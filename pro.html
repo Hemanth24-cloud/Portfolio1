@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Dark Mode Toggle Button -->
+    <div class="cont">
+        <h1></h1>
+        <button id="toggle-button">Switch to Dark Mode</button>
+      </div>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <p>Frontend Developer</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Passionate about building beautiful and functional web interfaces with clean and efficient code. Experienced in modern frontend technologies.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="skill-bar" data-skill="90"></div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="skill-bar" data-skill="85"></div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="skill-bar" data-skill="80"></div>
+                </div>
+                <div class="skill">
+                    <span>React</span>
+                    <div class="skill-bar" data-skill="75"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="overlay">
+                        <h3>Project One</h3>
+                        <p>A dynamic project description.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <div class="overlay">
+                        <h3>Project Two</h3>
+                        <p>A responsive web design project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="number" id="phone no" name="phone no" required placeholder="+91000000000">
+                <input type="file" id="resume" name="resume" accept=".pdf,.dox" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="foo">
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
+
